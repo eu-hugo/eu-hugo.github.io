@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Key</title>
+</head>
+<body>
+    <pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaMJT6RYJKwYBBAHaRw8BAQdA7NW5bxRgttXN6A10tngJAa6cu6inCdvFvjAD
+eKliTtK0IUh1Z28gPHJpYmVpcm8uc2FudGFuYUBpY2xvdWQuY29tPoiTBBMWCgA7
+FiEExifvMJ5KlOGt1cJdI5pxeF3CiWAFAmjCU+kCGwMFCwkIBwICIgIGFQoJCAsC
+BBYCAwECHgcCF4AACgkQI5pxeF3CiWBVKAEA0WcpHeJ2JYOlnEv9FdZu4e7w0DNX
+otflFVp+R1D8XxcA/RDPJENuuS57ECoJ4Sg6lWtAighzsSEsaGGvBR6KNf4NuDgE
+aMJT6RIKKwYBBAGXVQEFAQEHQN1AOfC78341cwXl9f4wrv42612vB8ZFAi5usclT
+JhhnAwEIB4h4BBgWCgAgFiEExifvMJ5KlOGt1cJdI5pxeF3CiWAFAmjCU+kCGwwA
+CgkQI5pxeF3CiWA7bAEAkb9M41hFoeNPwkzz4cMEgr1HuwakXh/GatCnGby3dCoA
+/iZ+C1oPLgFj9RzhzBkYBNNQNNoOPdj7tiz2eZtmPRwN
+=luz7
+-----END PGP PUBLIC KEY BLOCK-----
+    </pre>
+</body>
+</html>
