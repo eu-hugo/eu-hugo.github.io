@@ -12,6 +12,7 @@
             box-sizing: border-box;
         }
 
+        /* Make sure the HTML and body take up the full viewport */
         html,
         body {
             width: 100%;
@@ -19,6 +20,7 @@
             overflow: hidden;
         }
 
+        /* Style the video to cover the entire background */
         #background-video {
             position: fixed;
             top: 50%;
@@ -29,42 +31,17 @@
             min-height: 100%;
             transform: translate(-50%, -50%);
             object-fit: cover;
-            cursor: pointer;
         }
     </style>
 </head>
 
 <body>
-    <video id="background-video" autoplay loop muted playsinline onclick="showPublicKey()">
+    <!-- Video element for background with onclick event -->
+    <video id="background-video" autoplay loop muted playsinline onclick="location.href='https://x.com/__________hugo'">
         <source src="universe.mp4" type="video/mp4">
+        <!-- Fallback message for browsers that don't support video -->
         Your browser does not support the video tag.
     </video>
-
-    <script>
-        function showPublicKey() {
-            // Remove the video
-            const video = document.getElementById('background-video');
-            video.remove();
-
-            // Create and insert the pre element
-            const pre = document.createElement('pre');
-            pre.textContent = `-----BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEaMJT6RYJKwYBBAHaRw8BAQdA7NW5bxRgttXN6A10tngJAa6cu6inCdvFvjAD
-eKliTtK0IUh1Z28gPHJpYmVpcm8uc2FudGFuYUBpY2xvdWQuY29tPoiTBBMWCgA7
-FiEExifvMJ5KlOGt1cJdI5pxeF3CiWAFAmjCU+kCGwMFCwkIBwICIgIGFQoJCAsC
-BBYCAwECHgcCF4AACgkQI5pxeF3CiWBVKAEA0WcpHeJ2JYOlnEv9FdZu4e7w0DNX
-otflFVp+R1D8XxcA/RDPJENuuS57ECoJ4Sg6lWtAighzsSEsaGGvBR6KNf4NuDgE
-aMJT6RIKKwYBBAGXVQEFAQEHQN1AOfC78341cwXl9f4wrv42612vB8ZFAi5usclT
-JhhnAwEIB4h4BBgWCgAgFiEExifvMJ5KlOGt1cJdI5pxeF3CiWAFAmjCU+kCGwwA
-CgkQI5pxeF3CiWA7bAEAkb9M41hFoeNPwkzz4cMEgr1HuwakXh/GatCnGby3dCoA
-/iZ+C1oPLgFj9RzhzBkYBNNQNNoOPdj7tiz2eZtmPRwN
-=luz7
------END PGP PUBLIC KEY BLOCK-----`;
-
-            document.body.appendChild(pre);
-        }
-    </script>
 </body>
 
 </html>
